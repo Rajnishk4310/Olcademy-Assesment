@@ -80,7 +80,7 @@ const ProductPage = () => {
   if (loading) {
     return (
       <div className="flex items-center justify-center h-screen">
-        <div className="loader"></div> {/* You can replace this with a spinner or loading animation */}
+        <div className="loader"></div> 
       </div>
     );
   }
